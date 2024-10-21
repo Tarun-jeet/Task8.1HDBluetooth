@@ -115,6 +115,5 @@ async def main():
         # Print any errors that occur during connection
         print(f"Failed to connect: {e}")  
 
-# Runs the main function using asyncio
-if __name__ == "__main__":
-    asyncio.run(main())  # This starts the asyncio event loop and calls the main function
+# This starts the asyncio event loop and calls the main function
+asyncio.run(main())  
